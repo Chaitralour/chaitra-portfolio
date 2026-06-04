@@ -1,20 +1,30 @@
+import "./Skills.css";
+
 function Skills() {
   return (
     <section>
       <h2>Skills</h2>
 
-      <div>
-        <h3>Programming Languages</h3>
-        <p>Python, Java, C++</p>
+      <div className="skills-grid">
+        <div className="skill-card">
+          <h3>Programming</h3>
+          <p>Python, Java, C++</p>
+        </div>
 
-        <h3>Web Development</h3>
-        <p>HTML, CSS, JavaScript, React.js</p>
+        <div className="skill-card">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React.js</p>
+        </div>
 
-        <h3>Core CS</h3>
-        <p>DSA, OOP, DBMS, Operating Systems, Computer Networks</p>
+        <div className="skill-card">
+          <h3>Core CS</h3>
+          <p>DSA, OOP, DBMS, OS, CN</p>
+        </div>
 
-        <h3>Tools</h3>
-        <p>Git, GitHub, MySQL, VS Code</p>
+        <div className="skill-card">
+          <h3>Tools</h3>
+          <p>Git, GitHub, MySQL, VS Code</p>
+        </div>
       </div>
     </section>
   );

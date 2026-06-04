@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #f8fafc;
   color: #1e293b;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+p {
+  line-height: 1.7;
 }
