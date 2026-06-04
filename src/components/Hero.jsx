@@ -5,11 +5,10 @@ function Hero() {
     <section className="hero">
       <h1>Chaitra </h1>
 
-      <h2>Aspiring Software Engineer</h2>
+      <h2>Software Developer | Computer Science Student</h2>
 
       <p>
-        Computer Science Engineering student passionate about software
-        development, AI, and building impactful technology solutions.
+        Computer Science Engineering student with hands-on experience in web development, machine learning, and software development through internships and academic projects.
       </p>
 
       <div className="hero-buttons">
