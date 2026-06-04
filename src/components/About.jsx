@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <h2>About Me</h2>
 
       <p>
@@ -20,4 +20,8 @@ function About() {
   );
 }
 
+
 export default About;
+<footer className="footer">
+  <p>© 2026 Chaitra. Built with React.</p>
+</footer>

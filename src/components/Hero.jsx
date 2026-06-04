@@ -12,9 +12,19 @@ function Hero() {
       </p>
 
       <div className="hero-buttons">
-        <button>View Projects</button>
-        <button>Resume</button>
-        <button>GitHub</button>
+        <a href="#projects">
+  <button>View Projects</button>
+</a>
+        <a href="/resume/chaitrafinal.pdf" target="_blank" rel="noreferrer">
+  <button>Resume</button>
+</a>
+        <a
+  href="https://github.com/Chaitralour"
+  target="_blank"
+  rel="noreferrer"
+>
+  <button>GitHub</button>
+</a>
       </div>
     </section>
   );

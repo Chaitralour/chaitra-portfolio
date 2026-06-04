@@ -2,7 +2,7 @@ import "./Experience.css";
 
 function Experience() {
   return (
-    <section>
+    <section id="experience">
       <h2>Experience</h2>
 
       <div className="experience-grid">

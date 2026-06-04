@@ -1,0 +1,28 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  color: gray;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
